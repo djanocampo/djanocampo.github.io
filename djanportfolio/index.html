@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Djan Anthony T. Ocampo | Minimal Portfolio</title>
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">Djan Ocampo</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#skills" class="nav__link">Skills</a></li>
+                    <li><a href="#projects" class="nav__link">Projects</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <button class="nav__toggle" id="nav-toggle" aria-label="Open menu">
+                <i class='bx bx-menu'></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section" id="home">
+            <div class="container hero__inner reveal">
+                <p class="hero__eyebrow">Portfolio</p>
+                <h1>Djan Anthony T. Ocampo</h1>
+                <p class="hero__lead">4th Year Information Student at De La Salle-College of Saint Benilde.</p>
+                <a href="#about" class="button">Learn more</a>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="container reveal">
+                <h2 class="section-title">About</h2>
+                <p class="section-text">
+                    I have basic knowledge in HTML, CSS, C#, Python, SQL, and React. I am a dedicated person who always
+                    reminds myself to be the youngest person in the room and to learn everything I can from anyone.
+                </p>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="container reveal">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <article class="skill-card"><h3>HTML</h3><p>Basic structure and semantic markup.</p></article>
+                    <article class="skill-card"><h3>CSS</h3><p>Responsive layouts and visual styling.</p></article>
+                    <article class="skill-card"><h3>C#</h3><p>Fundamentals of object-oriented programming.</p></article>
+                    <article class="skill-card"><h3>Python</h3><p>Basic scripting and problem solving.</p></article>
+                    <article class="skill-card"><h3>SQL</h3><p>Basic database queries and table design.</p></article>
+                    <article class="skill-card"><h3>React</h3><p>Component-based UI fundamentals.</p></article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="certifications">
+            <div class="container reveal">
+                <h2 class="section-title">Certification</h2>
+                <a class="certificate-card" href="https://www.credly.com/badges/9fb24b54-5103-4fd8-8af4-8c37d18af852/print" target="_blank" rel="noopener noreferrer" aria-label="Open AWS badge on Credly">
+                    <img src="assets/img/aws.png" width= "100" height= "100" alt="AWS certificate of Djan Anthony T. Ocampo" class="certificate-card__image">
+                    <div class="certificate-card__content">
+                        <p class="project-card__label">AWS</p>
+                        <h3 class="project-card__title">
+                            <span>AWS Academy Graduate - Cloud Foundations</span>
+                            <span class="project-card__cta">View badge</span>
+                        </h3>
+                        <p class="section-text">Professional certification showcasing my AWS cloud knowledge.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="container reveal">
+                <h2 class="section-title">Featured Project</h2>
+                <a class="project-card" href="https://bitebalancever17.netlify.app/?fbclid=IwY2xjawQLlgFleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEeB-Em3XiiI9y-IKdlIEzoSIbNmVi1CUqZgjicIuDhkbAOQRZ6Xd-Hau3Ni9I_aem_zrHWAniHNg7IJWPagpG-yA" target="_blank" rel="noopener noreferrer" aria-label="Open BiteBalance project website">
+                    <img src="assets/img/bitebalance.png" alt="BiteBalance website screenshot" class="project-card__image">
+                    <div class="project-card__content">
+                        <p class="project-card__label">Capstone Project</p>
+                        <h3 class="project-card__title">
+                            <span>BiteBalance</span>
+                            <span class="project-card__cta">Try me</span>
+                        </h3>
+                        <p class="section-text">
+                            BiteBalance is a nutrition tracker catered for Filipinos, focused on Filipino foods to make
+                            daily nutrition tracking more practical and culturally relevant.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="container reveal">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-text">Open to internship opportunities and collaborative projects.</p>
+                <div class="contact-actions">
+                    <a class="button button--ghost" href="mailto:ocampo.djan@gmail.com">Email Me</a>
+                    <a class="button button--ghost" id="phone-button" href="tel:+639175170590" data-phone="+63 917 517 0590">Call / Text Me</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__title">Djan Anthony T. Ocampo</p>
+            <p class="footer__copy">Dedicated to continuous learning.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
